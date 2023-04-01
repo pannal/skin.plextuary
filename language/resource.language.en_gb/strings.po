@@ -929,3 +929,7 @@ msgstr ""
 msgctxt "#31611"
 msgid "System"
 msgstr ""
+
+msgctxt "#32100"
+msgid "Show backdrop on pause"
+msgstr ""
