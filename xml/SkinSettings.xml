@@ -73,12 +73,6 @@
 					<onclick>Skin.SelectBool(31164, 31165|show_profilename, 31166|show_profileavatar, 16018|show_none)</onclick>
 					<label2>$VAR[ProfileIdentificationLabel2Var]</label2>
 				</control>
-				<control type="radiobutton" id="708">
-					<label>$LOCALIZE[32101]</label>
-					<include>DefaultSettingButton</include>
-					<selected>Skin.HasSetting(showkodirestart)</selected>
-					<onclick>Skin.ToggleSetting(showkodirestart)</onclick>
-				</control>
 			</control>
 			<control type="grouplist" id="600">
 				<top>133</top>
@@ -301,12 +295,6 @@
 					<include>DefaultSettingButton</include>
 					<onclick>Skin.SetNumeric(OSDAutoCloseTime)</onclick>
 					<enable>Skin.HasSetting(OSDAutoClose)</enable>
-				</control>
-				<control type="radiobutton" id="625">
-					<label>$LOCALIZE[32100]</label>
-					<include>DefaultSettingButton</include>
-					<selected>Skin.HasSetting(OSDBackgroundPause)</selected>
-					<onclick>Skin.ToggleSetting(OSDBackgroundPause)</onclick>
 				</control>
 			</control>
 			<control type="image">
