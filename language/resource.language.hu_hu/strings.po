@@ -249,6 +249,14 @@ msgctxt "#31058"
 msgid "Automatic Login on startup"
 msgstr "Automatikus bejelentkezés indításkor"
 
+#~ msgctxt "#31059"
+#~ msgid "Select + X"
+#~ msgstr "Kiválasztás + X"
+
+#~ msgctxt "#31060"
+#~ msgid "Select + Start"
+#~ msgstr "Kiválasztás + indítás"
+
 msgctxt "#31061"
 msgid "Main menu items"
 msgstr "Főmenü elemek"
@@ -445,6 +453,10 @@ msgstr "Nem látott Sorozatok"
 msgctxt "#31123"
 msgid "Same director"
 msgstr "Egyazon rendező"
+
+msgctxt "#31124"
+msgid "Playerprocessinfo"
+msgstr "Feldolgozási információ"
 
 msgctxt "#31125"
 msgid "Press up for actor info"
@@ -748,18 +760,46 @@ msgstr "Rendszer"
 #~ msgid "Extras"
 #~ msgstr "Extrák"
 
-#~ msgctxt "#31059"
-#~ msgid "Select + X"
-#~ msgstr "Kiválasztás + X"
+msgctxt "#31630"
+msgid "System FPS"
+msgstr "Rendszer FPS"
 
-#~ msgctxt "#31060"
-#~ msgid "Select + Start"
-#~ msgstr "Kiválasztás + indítás"
+msgctxt "#31631"
+msgid "CPU frequency"
+msgstr "CPU frekvencia"
 
-#~ msgctxt "#31137"
-#~ msgid "PVR info"
-#~ msgstr "PVR információ"
+msgctxt "#31632"
+msgid "SoC temp"
+msgstr "SoC hőmérséklet"
 
-#~ msgctxt "#31138"
-#~ msgid "Player process info"
-#~ msgstr "Feldolgozási információ"
+msgctxt "#31633"
+msgid "Video stream cache"
+msgstr "Videófolyam puffer"
+
+msgctxt "#31634"
+msgid "Player process info"
+msgstr "Feldolgozási információ"
+
+msgctxt "#31635"
+msgid "Video source type"
+msgstr "Videó forrás típus"
+
+#: /xml/DialogPlayerProcessInfo.xml
+msgctxt "#31636"
+msgid "Display mode"
+msgstr "Kijelző mód"
+
+#: /xml/DialogPlayerProcessInfo.xml
+msgctxt "#31637"
+msgid "EOTF & Gamut"
+msgstr "EOTF & Gamut"
+
+msgctxt "#32100"
+msgid "Show backdrop on pause"
+msgstr "Háttér mutatás szünetnél"
+
+msgctxt "#32101"
+msgid "Show Restart Kodi option in exit menu"
+msgstr "Újraindítást mutat a kilépés mnenüben"
+
+
