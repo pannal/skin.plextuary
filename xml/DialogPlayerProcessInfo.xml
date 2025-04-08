@@ -706,10 +706,11 @@
                 <control type="label">
                     <left>240</left>
                     <top>140</top>
-                    <label>$INFO[VideoPlayer.SubtitlesName]</label>
+                    <label>[UPPERCASE]$INFO[VideoPlayer.SubtitlesLanguage][/UPPERCASE] | $INFO[VideoPlayer.SubtitlesLangEx]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                     <visible>VideoPlayer.SubtitlesEnabled</visible>
+                    <visible>VideoPlayer.HasSubtitles</visible>
                 </control>
                 <!-- Disabled -->
                 <control type="label">
