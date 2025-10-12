@@ -10,9 +10,9 @@ There are some feature additions as well, though, and we have specific builds fo
 ### Custom Exit Menu
 Plextuary will read includes from `.kodi/addons/ExitMenuAdd.xml` or `.kodi/addons/ExitMenuReplacement.xml`. With the latter completely replacing the supplied Exit Kodi menu with the contents of the XML.
 
-Starting with Kodi Nexus (20), this skin requires the `script.skinvariables` plugin to be installed (will be auto installed).
+When you want to use `.kodi/addons/ExitMenuReplacement.xml` (only available with Kodi Nexus (20) or above), this skin requires the `script.skinvariables` (Skin Variables) plugin to be installed.
 
-For anything below Nexus, only `ExitMenuAdd.xml` is considered, as `script.skinvariables` wasn't mature enough, yet.
+For anything below Nexus (Skin Variables wasn't mature enough, yet), or without Skin Variables installed, only `ExitMenuAdd.xml` is considered.
 
 Layout of `ExitMenuAdd.xml`:
 ```
