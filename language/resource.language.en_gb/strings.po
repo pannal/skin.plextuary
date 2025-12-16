@@ -1317,3 +1317,7 @@ msgstr ""
 msgctxt "#32113"
 msgid "Show Restart Kodi option in exit menu"
 msgstr ""
+
+msgctxt "#32114"
+msgid "Version"
+msgstr ""
