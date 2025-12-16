@@ -169,26 +169,11 @@
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
-				
-                <!-- Bitrate -->
-                <control type="label">
-                    <top>260</top>
-                    <label>$LOCALIZE[32047]:</label>
-                    <font>font_tiny</font>
-                    <textcolor>dialog_fg_90</textcolor>
-                </control>
-                <control type="label">
-                    <left>210</left>
-                    <top>260</top>
-                    <label>$INFO[Player.Process(video.live.mibit.rate),, $LOCALIZE[32003]] $INFO[VideoPlayer.VideoMibitRate,- [COLOR dialog_fg_70](Ø , $LOCALIZE[32003])[/COLOR]]</label>
-                    <font>font_tiny</font>
-                    <textcolor>dialog_fg_90</textcolor>
-                </control>
             </control>
 
             <!-- Group: More -->
             <control type="group">
-                <top>330</top>
+                <top>300</top>
                 <left>30</left>
 				
                 <!-- More Icon -->
@@ -237,16 +222,31 @@
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
 				
-                <!-- EOTF & Gamut -->
+                <!-- Bitrate -->
                 <control type="label">
                     <top>80</top>
-                    <label>$LOCALIZE[32101]:</label>
+                    <label>$LOCALIZE[32047]:</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>210</left>
                     <top>80</top>
+                    <label>$INFO[Player.Process(video.live.mibit.rate),, $LOCALIZE[32003]] $INFO[VideoPlayer.VideoMibitRate,- [COLOR dialog_fg_70](Ø , $LOCALIZE[32003])[/COLOR]]</label>
+                    <font>font_tiny</font>
+                    <textcolor>dialog_fg_90</textcolor>
+                </control>
+				
+                <!-- EOTF & Gamut -->
+                <control type="label">
+                    <top>110</top>
+                    <label>$LOCALIZE[32101]:</label>
+                    <font>font_tiny</font>
+                    <textcolor>dialog_fg_90</textcolor>
+                </control>
+                <control type="label">
+                    <left>210</left>
+                    <top>110</top>
                     <label>$INFO[Player.Process(amlogic.eoft_gamut)]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
@@ -254,23 +254,22 @@
 				
                 <!-- Color space -->
                 <control type="label">
-                    <top>110</top>
+                    <top>140</top>
                     <label>$LOCALIZE[32002]:</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>210</left>
-                    <top>110</top>
+                    <top>140</top>
                     <label>$INFO[Player.Process(video.hdr.colour.primaries)]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
-				
                 <!-- N/A -->
                 <control type="label">
                     <left>210</left>
-                    <top>110</top>
+                    <top>140</top>
                     <label>$LOCALIZE[32033]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
@@ -279,14 +278,14 @@
 				
                 <!-- Media source -->
                 <control type="label">
-                    <top>140</top>
+                    <top>170</top>
                     <label>$LOCALIZE[32027]:</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>210</left>
-                    <top>140</top>
+                    <top>170</top>
                     <label>$INFO[Player.Process(video.source.hdr.type)]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
@@ -294,14 +293,14 @@
 				
                 <!-- Playback time -->
                 <control type="label">
-                    <top>170</top>
+                    <top>200</top>
                     <label>$LOCALIZE[32013]:</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
                 <control type="label">
                     <left>210</left>
-                    <top>170</top>
+                    <top>200</top>
                     <label>$INFO[Player.Time] $INFO[Player.Duration,/ ,] [COLOR dialog_fg_70]$INFO[Player.Progress, (,%)][/COLOR]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
@@ -311,7 +310,7 @@
                 <!-- N/A -->
                 <control type="label">
                     <left>210</left>
-                    <top>170</top>
+                    <top>200</top>
                     <label>$LOCALIZE[32033]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
