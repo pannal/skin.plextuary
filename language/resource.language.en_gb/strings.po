@@ -1321,3 +1321,19 @@ msgstr ""
 msgctxt "#32114"
 msgid "Version"
 msgstr ""
+
+msgctxt "#32115"
+msgid "Passthrough"
+msgstr ""
+
+msgctxt "#32116"
+msgid "Input"
+msgstr ""
+
+msgctxt "#32117"
+msgid "Output"
+msgstr ""
+
+msgctxt "#32118"
+msgid "Decoding"
+msgstr ""
