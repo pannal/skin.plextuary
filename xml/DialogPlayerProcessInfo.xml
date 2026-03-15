@@ -205,7 +205,7 @@
                 <control type="label">
                     <visible>!String.IsEmpty(Player.Process(video.vpmode)</visible>
                     <top>20</top>
-                    <label>$LOCALIZE[#32119]:</label>
+                    <label>$LOCALIZE[32119]:</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
@@ -228,7 +228,7 @@
                     <left>275</left>
                     <top>25</top>
                     <label>$VAR[VideoVPModeVar]</label>
-                    <font>font_tiny_iconic_regular</font>
+                    <font>font_tiny_iconic</font>
                 </control>
 				
                 <!-- VS10 status -->
