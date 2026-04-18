@@ -310,7 +310,7 @@
                 <control type="label">
                     <left>210</left>
                     <top>170</top>
-                    <label>$INFO[Player.Process(video.source.hdr.type)] $INFO[Player.Process(video.dovi.dual.track),- [COLOR dialog_fg_70](,)[/COLOR]]</label>
+                    <label>$INFO[Player.Process(video.source.hdr.type)] $VAR[DualTrackVar,- [COLOR dialog_fg_70](,)[/COLOR]]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
