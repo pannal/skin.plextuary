@@ -1372,5 +1372,5 @@ msgstr ""
 
 #: /xml/Variables.xml
 msgctxt "#31320"
-msgid "Variable or uncertain framing"
+msgid "Skipped [COLOR dimgrey](VAR)[/COLOR]"
 msgstr ""

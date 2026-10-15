@@ -1042,5 +1042,5 @@ msgstr "VS10 & VP"
 
 #: /xml/Variables.xml
 msgctxt "#31320"
-msgid "Variable or uncertain framing"
-msgstr "Variable oder unsichere Bildgrenzen"
+msgid "Skipped [COLOR dimgrey](VAR)[/COLOR]"
+msgstr "Übersprungen [COLOR dimgrey](VAR)[/COLOR]"
