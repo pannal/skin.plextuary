@@ -2,7 +2,7 @@
 <window type="dialog" id="1109">
 	<onload>Skin.TimerStart(1109_topbaroverlay)</onload>
 	<visible>Window.IsActive(fullscreenvideo) | Window.IsActive(visualisation)</visible>
-	<visible>Window.IsActive(seekbar) | Window.IsActive(pvrosdchannels) | Window.IsActive(pvrchannelguide) | !String.IsEmpty(Window(10000).Property(script.plex.osd_active))</visible>
+	<visible>Window.IsActive(seekbar) | Window.IsActive(pvrosdchannels) | Window.IsActive(pvrchannelguide) | !String.IsEmpty(Window(10000).Property(script.plex.show_osd))</visible>
 	<visible>!Window.IsActive(playerprocessinfo)</visible>
 	<depth>DepthOSD</depth>
 	<include>Animation_TopSlide</include>
